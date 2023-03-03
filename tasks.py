@@ -2,7 +2,9 @@ import Лаба_3_working_functions as f
 
 def task1():
     #Я зрозумів другу позицію у натуральному розумінні а не у індексному
-    a=[1,-5,6,-8,12,7]
+    a=[1,6,-8,12,7]
+    print(a)
+    a.insert(1,-5)
     print(a)
     per=f.lper(a)
     print("Найменьше значення:",per["min"],"Найбільше значення",per["max"],sep='\n')
